@@ -4,28 +4,32 @@ import java.util.Scanner;
 
 public class Calc {
     public static void main(String[] args) {
-
-
-
+        System.out.println("Please Enter 2 Numbers");
+        Scanner input = new Scanner(System.in);
+        int firstNum = input.nextInt();
+        int secondNum = input.nextInt();
+        add(firstNum,secondNum);
+        delete(firstNum,secondNum);
+        multiply(firstNum,secondNum);
     }
 
 
-    public static int add(int Num1, int Num2) {
+    public static void add(int num1, int num2) {
 
-        int addition = Num1 + Num2;
-        return addition;
+        int addition = num1 + num2;
+        System.out.println(addition);
     }
 
-    public static int multiply(int Num1, int Num2){
+    public static void multiply(int num1, int num2){
 
-        int multiply = Num1 * Num2;
-        return multiply;
+        int multiply = num1 * num2;
+        System.out.println(multiply);
     }
 
-    public static int delete(int Num1, int Num2) {
+    public static void delete(int num1, int num2) {
 
-        int delete = Num1 - Num2;
-        return delete;
+        int delete = num1 - num2;
+        System.out.println(delete);
     }
 
 }
