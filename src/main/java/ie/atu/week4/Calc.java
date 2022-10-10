@@ -6,6 +6,10 @@ import java.util.Scanner;
 
 public class Calc {
     public static void main(String[] args) {
+        int Var1 , Var2;
+        System.out.println("Please Enter 2 Numbers\n");
+        new Scanner(System.in);
+
 
     }
 
@@ -18,7 +22,6 @@ public class Calc {
     }
 
 
-    }
 
     public static int multiply(int Num1, int Num2){
 
